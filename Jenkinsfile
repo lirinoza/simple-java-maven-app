@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:3-5-0' 
+            image 'maven:maven_3_5_0'
             args '-v /root/.m2:/root/.m2' 
         }
 

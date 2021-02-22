@@ -1,9 +1,7 @@
 pipeline {
     agent {
         docker {
-            label 'windows'
-            image 'mcr.microsoft.com/powershell'
-            image 'maven:3-alpine' 
+            image 'maven:3-5-0' 
             args '-v /root/.m2:/root/.m2' 
         }
 

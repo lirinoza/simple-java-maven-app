@@ -34,4 +34,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+      <repository>
+        <id>central</id>
+        <name>GA69LTDRBK2H2-releases</name>
+        <url>http://myartifactory.com/artifactory/mylocalrepository-libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>GA69LTDRBK2H2-snapshots</name>
+        <url>http://myartifactory.com/artifactory/mylocalrepository-libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
